@@ -56,15 +56,9 @@ public import Mathlib.FieldTheory.Finite.Basic
 namespace Bl.general_b_fact_left
 
 theorem goal1 :
-  ∀ {k : Type} [inst : Field.{0} k] [Fintype.{0} k] (t m e : k),
-  Ne.{1} (HSub.hSub.{0, 0, 0} (HPow.hPow.{0, 0, 0} t 2) (HMul.hMul.{0, 0, 0} 4 m)) 0 →
-    Exists.{1} fun (x : k) ↦
-      Exists.{1} fun (y : k) ↦
-        Eq.{1}
-          (HAdd.hAdd.{0, 0, 0}
-            (HAdd.hAdd.{0, 0, 0} (HPow.hPow.{0, 0, 0} x 2) (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} t x) y))
-            (HMul.hMul.{0, 0, 0} m (HPow.hPow.{0, 0, 0} y 2)))
-          e := by
+  ∀ {k : Type} [inst : Field k] [Fintype k] (t m e : k),
+    t ^ 2 - 4 * m ≠ 0 →
+    ∃ x y : k, x ^ 2 + t * x * y + m * y ^ 2 = e := by
   intro k _ _ t m e hd
   by_cases hc : ringChar k = 2
   · have h2 : (2 : k) = 0 := by
