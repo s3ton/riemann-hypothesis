@@ -19,6 +19,7 @@ A reformulation of a hard assertion is not an independent proof. Do not credit s
 
 | Date | Topic | Status | Notes |
 | --- | --- | --- | --- |
+| 2026-11-24 | Weil two-translate obstruction and explicit periodic Möbius approximation | Mathematical reductions proved; finite approximation estimate unproved (B, GRH-hard) | [Arithmetic positivity and approximation](2026-11-24-positivity-and-periodic-mobius-approximation.md) |
 | 2026-11-24 | Structural alternatives and discriminant control of `NData.etaLoc` | Local DVR/Hecke defect estimate proved on paper; family bound unproved (D) | [Structural and discriminant audit](2026-11-24-structural-alternatives-and-hecke-discriminants.md) |
 | 2026-11-24 | Alpoge's methodological remarks and possible structural bypass | User-attributed methodological hypothesis; no independent shortcut proved | [Structural-cut research direction](2026-11-24-alpoge-methodological-remarks-and-structural-cut.md) |
 | 2026-11-24 | `HostExW` / `TopG` logical cut and remaining dependencies | Source-verified proof interface; independent analytic estimate unresolved | [Host/TopG audit](2026-11-24-hostexw-topg-logical-cut.md) |
