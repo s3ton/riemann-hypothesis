@@ -19,6 +19,7 @@ A reformulation of a hard assertion is not an independent proof. Do not credit s
 
 | Date | Topic | Status | Notes |
 | --- | --- | --- | --- |
+| 2026-11-24 | `HostExW` / `TopG` logical cut and remaining dependencies | Source-verified proof interface; independent analytic estimate unresolved | [Host/TopG audit](2026-11-24-hostexw-topg-logical-cut.md) |
 | 2026-11-24 | Landau positive-part windows / sparse-scale obstruction | Source-level bridge verified; mathematical contrapositive; no independent analytic estimate | [Landau bottleneck](2026-11-24-landau-positive-part-obstruction.md) |
 | 2026-11-24 | `DIVinN_at` and the cohomological `VVle` input | Source-level transfer verified; independent bound unresolved | [Numerical bottleneck](2026-11-24-divinn-arithmetic-bottleneck.md) |
 | 2026-11-23 | Analytic zero-exclusion / `HostExW` / `VWin` | Historical investigation tracked; no independent shortcut verified here | [Investigation register](2026-11-23-zero-exclusion-register.md) |
